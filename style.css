@@ -1,0 +1,142 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-right: 23px;
+    line-height: 29px;
+    cursor: pointer;
+
+
+}
+
+.button-header {
+    background-color: #665ae1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.image-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    background: #ADFF00;
+    border: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+    @media screen and (max-width: 700px) {
+
+       body {
+        
+            height: 50%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+       }
+       
+        header {
+            display: none;
+        }
+
+        p {
+
+            display: none;
+
+        }
+
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            line-height: 60.95px;
+            
+            
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 30px;
+            line-height: 36.57px;
+            text-align: center;
+            
+        }
+
+        .button-main {
+            width: 239px;
+            height: 64px;
+            border-radius: 30px;
+            background: #ADFF00;
+            border: none;
+            color: #000;
+            font-size: 28px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
+            margin: auto;
+        }
+
+        .image-logo {
+            margin-left: 50px;
+            margin-top: 25%;
+            position: static;
+            Width: 354px;
+            Height: 317px;
+        }
+    }
